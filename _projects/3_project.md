@@ -13,6 +13,8 @@ Built a Streamlit assistant to help users plan meals and track progress toward t
 - **Track daily intake:** Log meals, water and weight, then review nutrition totals and trends. Upload a food photo to estimate portions and nutrients, review or correct the estimates, and save the meal.
 - **Explore recipes:** Enter a recipe or compare two side by side to estimate preparation time, difficulty and meal type, with optional LLM-based nutrition analysis.
 
+- **Food vision, integrated into the app:** Developed and compared approaches for estimating meal portions, calories and macronutrients from food photos, and integrated this work directly into NutriCoach’s photo-analysis workflow.
+
 LangGraph tools handle calculations, food lookups and logging, while persistent profiles and journals maintain context across sessions. Nutrition estimates remain editable.
 
 [Code](https://github.com/oremaz/nutricoach)
