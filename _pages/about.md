@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: Machine learning research · Mines Paris – PSL · MVA, ENS Paris-Saclay
 profile: false
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
   enabled: false
