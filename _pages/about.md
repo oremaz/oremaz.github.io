@@ -18,4 +18,4 @@ I previously worked on discrete generative models at Inria / ENS Lyon, advised b
 
 I am seeking a 5–6-month ML research internship starting in April 2027, with the aim of pursuing a PhD afterward.
 
-Explore my [publications]({{ '/publications/' | relative_url }}), [personal projects]({{ '/projects/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}).
+Explore my [publications]({{ '/publications/' | relative_url }}) and [personal projects]({{ '/projects/' | relative_url }}).
