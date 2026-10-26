@@ -1,18 +1,16 @@
 ---
 layout: page
 title: ML Playground
-description: An LLM-assisted workspace for reproducible ML experiments.
+description: Shared ML benchmarks and an agent that learns from experiment results.
 permalink: /projects/ml_playground/
 importance: 1
 category: personal
 ---
 
-An LLM assistant proposes prediction tasks from CSVs, prepares data and revises experiments within a fixed trial budget.
+Implemented a shared preprocessing and benchmarking framework for classification, regression and forecasting, covering tree-based methods, neural networks and specialized foundation models for tabular data and time series. Models use common evaluation splits for direct comparison on the same dataset.
 
-**Key ideas tested**
+Added an agent that inspects dataframes, proposes predictive tasks and uses these tools to test hypotheses, diagnose results and revise its approach. Evaluated local **Qwen3.8-27B with xhigh reasoning** on four datasets: building energy, bike sharing, wearable activity and finance.
 
-- Tool-driven feature engineering and model selection with bounded autonomous iterations.
-- Fair comparisons using frozen development splits and a reserved final test set.
-- Classical baselines versus tabular and forecasting foundation models.
+**Finding:** Iteration brought limited, inconsistent gains beyond the first benchmark. On reserved data, bike demand prediction improved, finance retained its initial model, and energy and activity performance worsened.
 
 [Code](https://github.com/oremaz/ml-playground)
