@@ -18,6 +18,14 @@ giscus:
   category_id: DIC_kwDOExample
 YAML
 
+# These checks exercise theme demo posts, which the personal site excludes.
+# Restore those fixtures only for this test build.
+ruby -rpsych -e '
+  cfg = Psych.unsafe_load_file("_config.yml")
+  exclusions = Array(cfg["exclude"]).reject { |path| path == "_posts/" }
+  puts({ "exclude" => exclusions }.to_yaml.sub(/\A---\s*\n/, ""))
+' >>"${tmp_override}"
+
 bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
 giscus_page="${tmp_site}/blog/2022/giscus-comments/index.html"
