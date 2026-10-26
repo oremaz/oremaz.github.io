@@ -15,4 +15,4 @@ A research sandbox for AI-generated text and image detection, with retained text
 - Detector recovery through one supervised update on adversarial outputs.
 - Trade-offs between attack detection, human false positives and retention on base-model outputs.
 
-[Code](https://github.com/oremaz/ai-content-robustness) · [Results](https://github.com/oremaz/ai-content-robustness/blob/main/docs/research_results.md)
+[Code](https://github.com/oremaz/ai-content-robustness)

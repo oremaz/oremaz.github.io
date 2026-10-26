@@ -15,4 +15,4 @@ An LLM assistant proposes prediction tasks from CSVs, prepares data and revises 
 - Fair comparisons using frozen development splits and a reserved final test set.
 - Classical baselines versus tabular and forecasting foundation models.
 
-[Code](https://github.com/oremaz/ml-playground) · [Experiment logs](https://github.com/oremaz/ml-playground/tree/main/experiments/autonomous)
+[Code](https://github.com/oremaz/ml-playground)

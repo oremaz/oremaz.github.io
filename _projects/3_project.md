@@ -15,4 +15,4 @@ A conversational nutrition-tracking app with persistent user context, food-photo
 - Food-photo nutrition estimation with general VLMs, FoodLMM and a depth-based reproduction.
 - Frozen text embeddings plus LightGBM for recipe difficulty, meal type and preparation time.
 
-[Code](https://github.com/oremaz/nutricoach) · [Food vision experiments](https://github.com/oremaz/nutricoach/tree/main/nut_agent/nutricoach/food_vision)
+[Code](https://github.com/oremaz/nutricoach)
